@@ -1,3 +1,17 @@
+/* Default styles for all screen sizes (mobile-first approach is recommended) */
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Styles for screens wider than 768px (e.g., tablets and desktops) */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%; /* Adjust width for larger screens */
+    margin: 0 auto; /* Center the container */
+  }
+}
+
 @font-face {
         font-family: 'planet-kosmos.ttf';
         src: url('./fonts/planet-kosmos.ttf') format('truetype');
@@ -47,4 +61,5 @@ a{
     text-decoration: none;
 }
 }
+
 

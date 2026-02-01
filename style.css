@@ -3,7 +3,7 @@
         src: url('./fonts/planet-kosmos.ttf') format('truetype');
 }
 @font-face {
-        font-family: 'Tracer';
+        font-family: 'tracercondital.ttf';
         src: url('./fonts/tracercondital.ttf') format('truetype');
 }
 body{
@@ -47,3 +47,4 @@ a{
     text-decoration: none;
 }
 }
+
